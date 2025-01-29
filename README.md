@@ -30,7 +30,18 @@ To set up the project locally, follow these steps:
   										
 - Install the required packages
 
-    pip install -r requirements.txt																																						
+    pip install -r requirements.txt
+
+- Run the train.ipynb file (Model Traning)
+
+    The pkl(pikle files) will be generated.
+    After that run app.py file using streamlit command (streamlit run app.py).
+
+- Dataset download Link
+
+  Link --> https://www.kaggle.com/datasets/samuelotiattakorah/agriculture-crop-yield/data?select=crop_yield.csv
+
+  
 **Model Training and Evaluation**
 
 The model is trained using an XGBoost regressor with a preprocessing pipeline that includes one-hot encoding for categorical features. The training process involves splitting the dataset into training and testing sets, fitting the model on training data, and saving both the model and preprocessed data for future use.
