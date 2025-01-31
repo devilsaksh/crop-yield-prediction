@@ -6,7 +6,7 @@ import pandas as pd
 # Load trained model
 model = joblib.load('crop_yield_model.pkl')
 
-# Define feature names (Manually set them since X.columns is unavailable)
+# Define feature names 
 feature_columns = [
     "Region", "Soil_Type", "Crop", "Rainfall_mm", "Temperature_Celsius", 
     "Fertilizer_Used", "Irrigation_Used", "Weather_Condition", "Days_to_Harvest"
