@@ -4,19 +4,16 @@ import joblib
 import pandas as pd
 import os
 
-# Load trained model
-# model = joblib.load('crop_yield_model.pkl')
 # Print current directory and files (for debugging)
 print("Current Working Directory:", os.getcwd())
 print("Files in Directory:", os.listdir())
 
-# Load model safely
+# Load model 
 model_path = "crop_yield_model.pkl"
 if os.path.exists(model_path):
     model = joblib.load(model_path)
 else:
     raise FileNotFoundError("Model file not found. Ensure model.pkl is uploaded correctly.")
-
 
 # Define feature names 
 feature_columns = [
