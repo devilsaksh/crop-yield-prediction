@@ -1,3 +1,5 @@
+The website is live - https://crop-prediction-11.streamlit.app/
+
 This project implements a machine learning model to predict crop yield based on various agricultural parameters. 
 The model utilizes data preprocessing techniques and an XGBoost regressor to provide accurate yield predictions, 
 aiding farmers in making informed decisions about their crops.
